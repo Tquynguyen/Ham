@@ -11,7 +11,7 @@ int main(int argc, char** argv) {
 int n;
 cout<<"Moi ban nhap n:";
 cin>>n;
-cout<<"So fibonaci thu "<<n<<" la "<<fib(n)<<endl;
+cout<<"So fibonaci thu "<<n<<" la "<<fib(n-1)<<endl;
 xuatdayfib(n);
 	return 0;
 }
@@ -22,4 +22,4 @@ void xuatdayfib(int n)
 {
 cout<<"Day so fibonacci la:"<<endl;
 for(int i=0;i<n;i++)
-cout<<fib(i+1)<<"\t";}
+cout<<fib(i)<<"\t";}
