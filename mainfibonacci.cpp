@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
+/* Vd dãy FB: 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, …
+Tìm số FB tại vị trí thứ N bất kỳ
+Xuất dãy FB từ 1 tới N
+ */
 int fib(int n);
 void xuatdayfib(int n);
 int main(int argc, char** argv) {
